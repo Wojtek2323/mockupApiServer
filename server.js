@@ -4,7 +4,7 @@ const path = require('path');
 const express = require('express'); 
 const app = express(); 
 var cors = require('cors')
-const jsonUrl = "C:/Users/w.szymanski/Documents/FlightCatcher/mockupApiServer"
+//const jsonUrl = "C:/Users/w.szymanski/Documents/FlightCatcher/mockupApiServer"
 
 
 const allowedOrigins = ['http://*'];
@@ -23,7 +23,8 @@ app.use(cors({
 
 }));
 
-var usersFilePath = path.join(jsonUrl, 'data.json');
+//var usersFilePath = path.join(jsonUrl, 'data.json');
+var usersFilePath = 'data.json'
 app.get('/', function(req, res){
     res.set('Content-Type','application/json');
     var readable = fs.createReadStream(usersFilePath);
