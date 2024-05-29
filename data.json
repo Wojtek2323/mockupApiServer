@@ -1,0 +1,1163 @@
+{
+    "search_metadata": {
+        "id": "66547a8611c881d03344d3c1",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/8567ae60ba1a8560/66547a8611c881d03344d3c1.json",
+        "created_at": "2024-05-27 12:20:22 UTC",
+        "processed_at": "2024-05-27 12:20:22 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+ORD+from+WAW+on+2024-05-28+through+2024-06-03",
+        "raw_html_file": "https://serpapi.com/searches/8567ae60ba1a8560/66547a8611c881d03344d3c1.html",
+        "prettify_html_file": "https://serpapi.com/searches/8567ae60ba1a8560/66547a8611c881d03344d3c1.prettify",
+        "total_time_taken": 1.5
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": "WAW",
+        "arrival_id": "ORD",
+        "outbound_date": "2024-05-28",
+        "return_date": "2024-06-03",
+        "currency": "USD"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 14:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-28 16:15"
+                    },
+                    "duration": 110,
+                    "airplane": "Airbus A321",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1349",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 102 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-28 17:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 19:55"
+                    },
+                    "duration": 575,
+                    "airplane": "Airbus A340",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 432",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 679 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 65,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 750,
+            "carbon_emissions": {
+                "this_flight": 782000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 28
+            },
+            "price": 688,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hNU0RFek5EbDhURWcwTXpJYUN3aWxtUVFRQWhvRFZWTkVPQnh3cFprRSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkZSQSIsbnVsbCwiTEgiLCIxMzQ5Il0sWyJGUkEiLCIyMDI0LTA1LTI4IiwiT1JEIixudWxsLCJMSCIsIjQzMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 19:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Vienna International Airport",
+                        "id": "VIE",
+                        "time": "2024-05-28 20:55"
+                    },
+                    "duration": 75,
+                    "airplane": "Embraer 195",
+                    "airline": "Austrian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "OS 632",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 86 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Vienna International Airport",
+                        "id": "VIE",
+                        "time": "2024-05-29 10:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-29 13:20"
+                    },
+                    "duration": 590,
+                    "airplane": "Boeing 777",
+                    "airline": "Austrian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "OS 65",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 660 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 815,
+                    "name": "Vienna International Airport",
+                    "id": "VIE",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1480,
+            "carbon_emissions": {
+                "this_flight": 747000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 22
+            },
+            "price": 699,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3BQVXpZek1ueFBVelkxR2dzSXJhRUVFQUlhQTFWVFJEZ2NjSzJoQkE9PSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIlZJRSIsbnVsbCwiT1MiLCI2MzIiXSxbIlZJRSIsIjIwMjQtMDUtMjkiLCJPUkQiLG51bGwsIk9TIiwiNjUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 07:30"
+                    },
+                    "duration": 90,
+                    "airplane": "Airbus A319",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1617",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 104 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 09:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-28 10:00"
+                    },
+                    "duration": 60,
+                    "airplane": "Airbus A320",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 99",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 49 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-28 10:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 12:55"
+                    },
+                    "duration": 545,
+                    "airplane": "Boeing 747",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 430",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 610 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 90,
+                    "name": "Munich International Airport",
+                    "id": "MUC"
+                },
+                {
+                    "duration": 50,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 835,
+            "carbon_emissions": {
+                "this_flight": 765000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 25
+            },
+            "price": 720,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFaEZNU0RFMk1UZDhURWc1T1h4TVNEUXpNQm9MQ0xpeUJCQUNHZ05WVTBRNEhIQzRzZ1E9IixbWyJXQVciLCIyMDI0LTA1LTI4IiwiTVVDIixudWxsLCJMSCIsIjE2MTciXSxbIk1VQyIsIjIwMjQtMDUtMjgiLCJGUkEiLG51bGwsIkxIIiwiOTkiXSxbIkZSQSIsIjIwMjQtMDUtMjgiLCJPUkQiLG51bGwsIkxIIiwiNDMwIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-05-28 08:00"
+                    },
+                    "duration": 120,
+                    "airplane": "Boeing 737",
+                    "airline": "KLM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KL 1310",
+                    "ticket_also_sold_by": [
+                        "Delta"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 91 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-05-28 12:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 14:20"
+                    },
+                    "duration": 525,
+                    "airplane": "Boeing 787-10",
+                    "airline": "KLM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KL 611",
+                    "ticket_also_sold_by": [
+                        "Delta"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 445 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 275,
+                    "name": "Amsterdam Airport Schiphol",
+                    "id": "AMS"
+                }
+            ],
+            "total_duration": 920,
+            "carbon_emissions": {
+                "this_flight": 537000,
+                "typical_for_this_route": 611000,
+                "difference_percent": -12
+            },
+            "price": 791,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hMVERFek1UQjhTMHcyTVRFYUN3alQ2UVFRQWhvRFZWTkVPQnh3MCtrRSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkFNUyIsbnVsbCwiS0wiLCIxMzEwIl0sWyJBTVMiLCIyMDI0LTA1LTI4IiwiT1JEIixudWxsLCJLTCIsIjYxMSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 06:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-28 08:40"
+                    },
+                    "duration": 155,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 1247",
+                    "ticket_also_sold_by": [
+                        "Delta"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 112 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-05-28 13:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 15:00"
+                    },
+                    "duration": 530,
+                    "airplane": "Airbus A350",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 136",
+                    "ticket_also_sold_by": [
+                        "Delta"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 419 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 270,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 955,
+            "carbon_emissions": {
+                "this_flight": 532000,
+                "typical_for_this_route": 611000,
+                "difference_percent": -13
+            },
+            "price": 796,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hCUmpFeU5EZDhRVVl4TXpZYUN3anU3UVFRQWhvRFZWTkVPQnh3N3UwRSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkNERyIsbnVsbCwiQUYiLCIxMjQ3Il0sWyJDREciLCIyMDI0LTA1LTI4IiwiT1JEIixudWxsLCJBRiIsIjEzNiJdXV0="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 18:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Brussels Airport",
+                        "id": "BRU",
+                        "time": "2024-05-28 20:10"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A319",
+                    "airline": "Brussels Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SN.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SN 2556",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 131 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Brussels Airport",
+                        "id": "BRU",
+                        "time": "2024-05-29 10:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-29 12:00"
+                    },
+                    "duration": 525,
+                    "airplane": "Boeing 787-10",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 973",
+                    "ticket_also_sold_by": [
+                        "Brussels Airlines"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 426 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 845,
+                    "name": "Brussels Airport",
+                    "id": "BRU",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1495,
+            "carbon_emissions": {
+                "this_flight": 558000,
+                "typical_for_this_route": 611000,
+                "difference_percent": -9
+            },
+            "price": 698,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hUVGpJMU5UWjhWVUU1TnpNYUN3aVlvUVFRQWhvRFZWTkVPQnh3bUtFRSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkJSVSIsbnVsbCwiU04iLCIyNTU2Il0sWyJCUlUiLCIyMDI0LTA1LTI5IiwiT1JEIixudWxsLCJVQSIsIjk3MyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 19:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-28 20:55"
+                    },
+                    "duration": 110,
+                    "airplane": "Airbus A321",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1351",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 102 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-05-29 10:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-29 12:55"
+                    },
+                    "duration": 545,
+                    "airplane": "Boeing 747",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 430",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 610 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 835,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1490,
+            "carbon_emissions": {
+                "this_flight": 714000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 17
+            },
+            "price": 705,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hNU0RFek5URjhURWcwTXpBYUN3aWxwZ1FRQWhvRFZWTkVPQnh3cGFZRSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkZSQSIsbnVsbCwiTEgiLCIxMzUxIl0sWyJGUkEiLCIyMDI0LTA1LTI5IiwiT1JEIixudWxsLCJMSCIsIjQzMCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 07:30"
+                    },
+                    "duration": 90,
+                    "airplane": "Airbus A319",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1617",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 104 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 11:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 14:00"
+                    },
+                    "duration": 570,
+                    "airplane": "Boeing 787-10",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 952",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 525 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 240,
+                    "name": "Munich International Airport",
+                    "id": "MUC"
+                }
+            ],
+            "total_duration": 900,
+            "carbon_emissions": {
+                "this_flight": 631000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 3
+            },
+            "price": 799,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hNU0RFMk1UZDhWVUU1TlRJYUN3akg3d1FRQWhvRFZWTkVPQnh3eCs4RSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIk1VQyIsbnVsbCwiTEgiLCIxNjE3Il0sWyJNVUMiLCIyMDI0LTA1LTI4IiwiT1JEIixudWxsLCJVQSIsIjk1MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 10:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Copenhagen Airport",
+                        "id": "CPH",
+                        "time": "2024-05-28 11:20"
+                    },
+                    "duration": 80,
+                    "airplane": "Embraer 195",
+                    "airline": "Scandinavian Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SK 752",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 94 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Copenhagen Airport",
+                        "id": "CPH",
+                        "time": "2024-05-28 15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 17:55"
+                    },
+                    "duration": 550,
+                    "airplane": "Airbus A330",
+                    "airline": "Scandinavian Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SK 943",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 606 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 265,
+                    "name": "Copenhagen Airport",
+                    "id": "CPH"
+                }
+            ],
+            "total_duration": 895,
+            "carbon_emissions": {
+                "this_flight": 701000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 15
+            },
+            "price": 917,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SK.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3RUU3pjMU1ueFRTemswTXhvTENLN01CUkFDR2dOVlUwUTRISEN1ekFVPSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIkNQSCIsbnVsbCwiU0siLCI3NTIiXSxbIkNQSCIsIjIwMjQtMDUtMjgiLCJPUkQiLG51bGwsIlNLIiwiOTQzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 13:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 14:40"
+                    },
+                    "duration": 90,
+                    "airplane": "Airbus A319",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1613",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 104 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-05-28 15:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 18:15"
+                    },
+                    "duration": 565,
+                    "airplane": "Airbus A350",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 434",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 475 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 70,
+                    "name": "Munich International Airport",
+                    "id": "MUC"
+                }
+            ],
+            "total_duration": 725,
+            "carbon_emissions": {
+                "this_flight": 581000,
+                "typical_for_this_route": 611000,
+                "difference_percent": -5
+            },
+            "price": 942,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3hNU0RFMk1UTjhURWcwTXpRYUN3aWIzd1VRQWhvRFZWTkVPQnh3bTk4RiIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIk1VQyIsbnVsbCwiTEgiLCIxNjEzIl0sWyJNVUMiLCIyMDI0LTA1LTI4IiwiT1JEIixudWxsLCJMSCIsIjQzNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 08:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Vienna International Airport",
+                        "id": "VIE",
+                        "time": "2024-05-28 09:40"
+                    },
+                    "duration": 75,
+                    "airplane": "Embraer 195",
+                    "airline": "Austrian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "OS 626",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 86 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Vienna International Airport",
+                        "id": "VIE",
+                        "time": "2024-05-28 10:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 13:20"
+                    },
+                    "duration": 590,
+                    "airplane": "Boeing 777",
+                    "airline": "Austrian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "OS 65",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 660 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 50,
+                    "name": "Vienna International Airport",
+                    "id": "VIE"
+                }
+            ],
+            "total_duration": 715,
+            "carbon_emissions": {
+                "this_flight": 747000,
+                "typical_for_this_route": 611000,
+                "difference_percent": 22
+            },
+            "price": 955,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ3BQVXpZeU5ueFBVelkxR2dzSTN1a0ZFQUlhQTFWVFJEZ2NjTjdwQlE9PSIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIlZJRSIsbnVsbCwiT1MiLCI2MjYiXSxbIlZJRSIsIjIwMjQtMDUtMjgiLCJPUkQiLG51bGwsIk9TIiwiNjUiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Warsaw Chopin Airport",
+                        "id": "WAW",
+                        "time": "2024-05-28 16:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-05-28 19:40"
+                    },
+                    "duration": 600,
+                    "airplane": "Boeing 787",
+                    "airline": "LOT",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LO 3",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 494 kg"
+                    ]
+                }
+            ],
+            "total_duration": 600,
+            "carbon_emissions": {
+                "this_flight": 495000,
+                "typical_for_this_route": 611000,
+                "difference_percent": -19
+            },
+            "price": 1882,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+            "departure_token": "WyJDalJJYURSUmNtOTBlVVp6YzJkQlVGUk9ia0ZDUnkwdExTMHRMUzB0TFc5NVpHUXhOa0ZCUVVGQlIxcFZaVzlqUWpkdVJXMUJFZ05NVHpNYUN3anF2UXNRQWhvRFZWTkVPQnh3NnIwTCIsW1siV0FXIiwiMjAyNC0wNS0yOCIsIk9SRCIsbnVsbCwiTE8iLCIzIl1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 688,
+        "price_level": "high",
+        "typical_price_range": [
+            550,
+            650
+        ],
+        "price_history": [
+            [
+                1711580400,
+                594
+            ],
+            [
+                1711666800,
+                623
+            ],
+            [
+                1711753200,
+                623
+            ],
+            [
+                1711839600,
+                626
+            ],
+            [
+                1711922400,
+                626
+            ],
+            [
+                1712008800,
+                616
+            ],
+            [
+                1712095200,
+                613
+            ],
+            [
+                1712181600,
+                615
+            ],
+            [
+                1712268000,
+                629
+            ],
+            [
+                1712354400,
+                605
+            ],
+            [
+                1712440800,
+                547
+            ],
+            [
+                1712527200,
+                607
+            ],
+            [
+                1712613600,
+                616
+            ],
+            [
+                1712700000,
+                641
+            ],
+            [
+                1712786400,
+                583
+            ],
+            [
+                1712872800,
+                611
+            ],
+            [
+                1712959200,
+                578
+            ],
+            [
+                1713045600,
+                570
+            ],
+            [
+                1713132000,
+                582
+            ],
+            [
+                1713218400,
+                604
+            ],
+            [
+                1713304800,
+                603
+            ],
+            [
+                1713391200,
+                565
+            ],
+            [
+                1713477600,
+                572
+            ],
+            [
+                1713564000,
+                577
+            ],
+            [
+                1713650400,
+                587
+            ],
+            [
+                1713736800,
+                569
+            ],
+            [
+                1713823200,
+                569
+            ],
+            [
+                1713909600,
+                591
+            ],
+            [
+                1713996000,
+                571
+            ],
+            [
+                1714082400,
+                568
+            ],
+            [
+                1714168800,
+                477
+            ],
+            [
+                1714255200,
+                475
+            ],
+            [
+                1714341600,
+                475
+            ],
+            [
+                1714428000,
+                474
+            ],
+            [
+                1714514400,
+                474
+            ],
+            [
+                1714600800,
+                470
+            ],
+            [
+                1714687200,
+                475
+            ],
+            [
+                1714773600,
+                478
+            ],
+            [
+                1714860000,
+                478
+            ],
+            [
+                1714946400,
+                480
+            ],
+            [
+                1715032800,
+                478
+            ],
+            [
+                1715119200,
+                476
+            ],
+            [
+                1715205600,
+                490
+            ],
+            [
+                1715292000,
+                493
+            ],
+            [
+                1715378400,
+                548
+            ],
+            [
+                1715464800,
+                521
+            ],
+            [
+                1715551200,
+                476
+            ],
+            [
+                1715637600,
+                478
+            ],
+            [
+                1715724000,
+                519
+            ],
+            [
+                1715810400,
+                561
+            ],
+            [
+                1715896800,
+                557
+            ],
+            [
+                1715983200,
+                556
+            ],
+            [
+                1716069600,
+                557
+            ],
+            [
+                1716156000,
+                556
+            ],
+            [
+                1716242400,
+                557
+            ],
+            [
+                1716328800,
+                629
+            ],
+            [
+                1716415200,
+                624
+            ],
+            [
+                1716501600,
+                602
+            ],
+            [
+                1716588000,
+                641
+            ],
+            [
+                1716674400,
+                641
+            ],
+            [
+                1716760800,
+                688
+            ]
+        ]
+    }
+}
